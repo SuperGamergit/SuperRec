@@ -11,7 +11,7 @@
     "serverAddress": "https://superrec.onrender.com/",
     "targetVersion": null,
     "customPosters": false,
-    "allow2016AndEarly2017": false,
+    "allow2016AndEarly2017": true,
     "clearImageCacheOnLaunch": true,
     "port": 2018,
     "token_signature": "3EO3A9BMGOALH",
