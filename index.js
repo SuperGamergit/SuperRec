@@ -6,7 +6,7 @@ const fs = require('fs');
 const { LogType, log } = require("./src/logger.js")
 
 if (!fs.existsSync("./config.json")) {
-	log(LogType.Error, `Config does not exist! Make a copy of the file "config.template.json", rename it to "config.json", and edit the values inside the config.`)
+	log(LogType.Error, `Config does not exist! Make a copy of the file "config.temwplate.json", rename it to "config.json", and edit the values inside the config.`)
 	process.exit(1)
 }
 
